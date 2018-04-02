@@ -61,8 +61,8 @@ function on_page_change() {
   remove('.share_center_svg'); //
   remove('.best-review-score'); //
   remove('.hp-gallery-review '); // Overall score
-  remove('.b-button'); // Reserve your holiday home stay
-  remove('.b-button_primary'); //
+  // remove('.b-button'); // Reserve your holiday home stay
+  // remove('.b-button_primary'); //
   remove('.book_now_button_handler'); //
   remove('.public_transport_options'); // Transport side duplication
   remove('.hp_sidebar_usp_box'); // Like this one, but not sure yet?
@@ -98,12 +98,19 @@ function on_page_change() {
   remove('.hp_useful_links_header'); //
   remove('.hprt-reservation-message2'); // One other person looking now
   remove('.hp-blue-sans-rack-rate'); // Old rate
-  remove('.lastbooked-style-bold'); // In high demand
+  remove('.sr_property_in_demand'); // In high demand
   remove('.sr-header-endorsments'); //
   remove('.sidebox'); //
   remove('box');
   remove('sr_sidebar_map_redesign')
   remove('.sr_city_guide_banner');
+  remove('.hprt-roomtype-block');
+  remove('.hprt-price-deal-message'); // Someone just booked
+  remove('.urgency_message_red');
+  remove('.var-2');
+  remove('.hp__hotel_ratings');
+  remove('.strike-it-red_anim');
+  remove('.change-text-color-gray');
 };
 
 function remove(selector) {
