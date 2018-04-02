@@ -1,0 +1,13 @@
+{
+  "name": "Booking Destresser",
+  "version": "1.0",
+  "description": "Make Booking.com great again!",
+  "manifest_version": 2,
+  "content_scripts": [
+  {
+    "matches": ["https://www.booking.com/*"],
+    "js": ["booking.js"],
+    "css": ["booking.css"]
+  }
+]
+}
